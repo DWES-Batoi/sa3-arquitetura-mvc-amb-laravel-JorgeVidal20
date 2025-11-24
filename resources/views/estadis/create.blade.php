@@ -42,14 +42,14 @@
 
     {{-- Campo: capacidad --}}
     <div>
-      <label for="capacidad" class="block font-bold">Títols:</label>
+      <label for="capacidad" class="block font-bold">Capacidad:</label>
       <input type="number" name="capacidad" id="capacidad"
              value="{{ old('capacidad') }}" class="border p-2 w-full">
     </div>
 
     {{-- Campo: equipo --}}
     <div>
-      <label for="equipo" class="block font-bold">Títols:</label>
+      <label for="equipo" class="block font-bold">Equip:</label>
       <input type="text" name="equipo" id="equipo"
              value="{{ old('equipo') }}" class="border p-2 w-full">
     </div>
